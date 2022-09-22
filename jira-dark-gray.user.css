@@ -7,9 +7,9 @@
 @preprocessor default
 
 ==/UserStyle== */
-@-moz-document regexp(".*.atlassian.net/jira.*"),
-regexp(".*.atlassian.net/browse.*"),
-regexp(".*.atlassian.net/secure.*") {
+@-moz-document regexp(".*.jira.walmart.com/jira.*"),
+regexp(".*.jira.walmart.com/browse.*"),
+regexp(".*.jira.walmart.com/secure.*") {
     
    :root {
         --ds-background-selected: #333;
@@ -919,7 +919,7 @@ regexp(".*.atlassian.net/secure.*") {
     }
 }
 
-@-moz-document regexp(".*.atlassian.net/projects.*") {
+@-moz-document regexp(".*.jira.walmart.com/projects.*") {
     body,
     nav,
     [role="banner"],
@@ -989,7 +989,7 @@ regexp(".*.atlassian.net/secure.*") {
 }
 
 
-@-moz-document regexp(".*.atlassian.net/issues.*") {
+@-moz-document regexp(".*.jira.walmart.com/issues.*") {
     html,
     body,
     .navigator-body,
