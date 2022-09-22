@@ -989,7 +989,7 @@ regexp(".*.jira.walmart.com/secure.*") {
 }
 
 
-@-moz-document regexp(".*.jira.walmart.com/issues.*") {
+@-moz-document regexp(".*.jira.walmart.com/*.issues.*") {
     html,
     body,
     .navigator-body,
